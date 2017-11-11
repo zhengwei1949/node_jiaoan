@@ -1,135 +1,45 @@
-/**
- * firekylin light style for vscode
-*/
-
-@import url('base.css');
-body {
-  font-size: 1em;
-  line-height: 1.8;
-  padding: 0.5em;
-  word-wrap: break-word;
-  color: #666;
+.vscode-light a {
+	color: #2980b9;
 }
 
-strong {
-  font-weight: 700;
+.vscode-light h1,
+.vscode-light h2,
+.vscode-light h3,
+.vscode-light h4,
+.vscode-light h5,
+.vscode-light h6 {
+	font-weight: 600;
 }
 
-em {
-  font-style: italic;
+.vscode-light,
+.vscode-light pre code {
+	color: #333;
 }
 
-a,
-a:hover {
-  color: #2479CC;
-  text-decoration: none;
+.vscode-light code {
+	color: #c0392b;
 }
 
-blockquote {
-  margin: 10px 0 0 0;
-  padding: 15px 20px;
-  border-left: 5px solid #2479CC;
-  /*background-color: #f8f8f8 !important;*/
+.vscode-light pre:not(.hljs),
+.vscode-light code>div {
+	color: #333;
+	background-color: #f8f8f8;
+	font-weight: normal;
 }
 
-blockquote p {
-  margin-bottom: 0;
+.vscode-light table>thead>tr>th {
+	border-color: #ddd;
 }
 
-blockquote a {
-  word-break: break-all;
-  word-wrap: break-word;
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table>tbody>tr+tr>td {
+	border-color: #eee;
 }
 
-code {
-  font-size: 80%;
-  margin: 0 2px;
-  padding: 4px 5px;
-  background-color: #f2f2f2;
-  vertical-align: middle;
-  border-radius: 5px;
-}
-
-pre {
-  font-size: 1em;
-  line-height: 1.6;
-  word-break: break-all;
-  word-wrap: break-word;
-  white-space: pre-wrap;
-}
-
-pre code {
-  background-color: inherit;
-  border: none;
-  padding: 0;
-}
-
-img {
-  padding: 0;
-  display: block;
-  border: none;
-  margin: 10px 0 5px 0;
-  max-width: 100%;
-}
-
-table {
-  border: 0;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-table th,
-table td {
-  border: 0;
-}
-
-table th {
-  border-bottom: 2px solid #848484;
-  text-align: left;
-  padding: 6px 20px;
-}
-
-table td {
-  border-bottom: 1px solid #d0d0d0;
-  padding: 6px 20px;
-}
-
-p,
-blockquote,
-ul,
-ol,
-dl,
-table,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre {
-  margin-top: 15px;
-}
-
-h1 {
-  border-bottom: 0;
-}
-
-ul ul,
-ul ol,
-ul dl,
-ol ul,
-ol ol,
-ol dl,
-dl ul,
-dl ol,
-dl dl,
-blockquote>p:first-of-type {
-  margin-top: 0;
-}
-
-ul,
-ol,
-dl {
-  margin-left: 25px;
+.vscode-light blockquote {
+	padding: 0 1em;
+	color: #777;
+	border-left: 0.25em solid #ddd;
+	background: transparent;
 }
